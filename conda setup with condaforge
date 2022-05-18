@@ -11,7 +11,7 @@ source $HOME/miniconda3/bin/activate
 conda --help
 
 #Append conda to $PATH
-xed ~/.bashrc
+vim ~/.bashrc
 
 # add path to conda
 export PATH="$HOME/miniconda3/bin:$PATH"
